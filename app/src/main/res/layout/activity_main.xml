@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_marginTop="150dp"
+        android:id="@+id/btnutama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu Utama"
+        android:background="@drawable/btnutama"
+        android:textColor="#ffff"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/laporan"
+        android:textColor="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu Laporan"
+        android:textStyle="bold"
+        android:background="@drawable/btnutama"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/setelan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:background="@drawable/btnutama"/>
+</LinearLayout>
