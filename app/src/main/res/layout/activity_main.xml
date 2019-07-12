@@ -14,7 +14,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
         android:layout_marginEnd="150dp"
-        margi
         android:background="@drawable/btnutama"
         android:text="Menu Utama"
         android:textColor="#ffff"
