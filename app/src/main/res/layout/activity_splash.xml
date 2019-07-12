@@ -9,6 +9,7 @@
     tools:context=".Splash">
 
     <ImageView
+        android:id="@+id/app_logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/wallet"
@@ -17,6 +18,7 @@
         />
 
     <TextView
+        android:id="@+id/app_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Catatan Keuangan"
